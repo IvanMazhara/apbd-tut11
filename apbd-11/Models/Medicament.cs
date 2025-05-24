@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace apbd_11.Models;
 
+[Table("Medicament")]
 public class Medicament
 {
     [Key] public int IdMedicament { get; set; }
